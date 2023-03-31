@@ -16,12 +16,12 @@ class Ufc extends BaseController
         $rows = "";
         foreach ($result as $ufc) {
             $rows .= "<tr>
-                        <td>$ufc->Id</td>
-                        <td>$ufc->Naam</td>
-                        <td>$ufc->Club</td>
-                        <td>$ufc->Leeftijd</td>
-                        <td>$ufc->Nationaliteit</td>
-                        <td>$ufc->Salaris</td>
+                        <td>$ufc->Name</td>
+                        <td>$ufc->Ranking</td>
+                        <td>$ufc->Length</td>
+                        <td>$ufc->Weight</td>
+                        <td>$ufc->Age</td>
+                        <td>$ufc->WinsByKnockout</td>
                       </tr>";
         }
         // var_dump($result);
@@ -30,6 +30,6 @@ class Ufc extends BaseController
             'rows' => $rows
         ];
 
-        $this->view('voetballers/index', $data);
+        $this->view('ufc/index', $data);
     }
 }
