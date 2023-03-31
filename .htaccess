@@ -1,4 +1,4 @@
-# Dit is mijn eerste .htaccess bestand. We maken hiermee de bestanden onzichtbaar
+    # Dit is mijn eerste .htaccess bestand. We maken hiermee de bestanden onzichtbaar
 # Alle code tussen de IfModule wordt alleen uitgevoerd als mod_rewrite aangevinkt staat
 <IfModule mod_rewrite.c>
     # zet de rewriteengine aan
