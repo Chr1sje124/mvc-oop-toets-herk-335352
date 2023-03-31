@@ -12,7 +12,7 @@ class ufcModel
 
     public function getUfc()
     {
-        $sql = 'SELECT Id, Name, Ranking, Length, Weight, Age, WinsByKnockout FROM Voetballers;';
+        $sql = 'SELECT Id, Name, Ranking, Length, Weight, Age, WinsByKnockout FROM poundforpound;';
 
         $this->db->query($sql);
 

@@ -15,12 +15,12 @@
     <table>
         <thead>
             <tr>
-                <th>Id</th>
                 <th>Name</th>
-                <th>Club</th>
-                <th>Leeftijd</th>
-                <th>Nationaliteit</th>
-                <th>Salaris</th>
+                <th>Ranking</th>
+                <th>Length (m)</th>
+                <th>Weight (kg)</th>
+                <th>Age</th>
+                <th>Wins By Knockout</th>
             </tr>
         </thead>
         <tbody>

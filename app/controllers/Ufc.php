@@ -26,7 +26,7 @@ class Ufc extends BaseController
         }
         // var_dump($result);
         $data = [
-            'title' => 'Welkom op de Landenpagina',
+            'title' => "Men's Pound-for-Pound top rank UFC",
             'rows' => $rows
         ];
 

@@ -1,6 +1,6 @@
 <?php
 
-define('URLROOT', 'http://www.mvc-oop-toets-herk.com/');
+define('URLROOT', 'http://mvc-oop-toets-herk.com/');
     
 define('DB_HOST', 'localhost');
 define('USERNAME', 'root');

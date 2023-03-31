@@ -9,7 +9,7 @@
 </head>
 <body>
     <h3><?= $data['title']; ?></h3>
-    <a href="<?= URLROOT; ?>/Voetballers/index">Voetballers</a>
+    <a href="<?= URLROOT; ?>/ufc">ufc-spelers</a>
 
     <table border="1">
         <thead>
