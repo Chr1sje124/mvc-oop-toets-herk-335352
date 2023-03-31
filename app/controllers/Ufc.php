@@ -26,7 +26,7 @@ class Ufc extends BaseController
         }
         // var_dump($result);
         $data = [
-            'title' => "Men's Pound-for-Pound top rank UFC",
+            'title' => "MEN'S POUND-FOR-POUND TOP RANK UFC",
             'rows' => $rows
         ];
 
