@@ -1,6 +1,6 @@
 <?php
 
-class VoetballersModel
+class ufcModel
 {
 
     private $db;
@@ -10,9 +10,9 @@ class VoetballersModel
         $this->db = new DataBase();
     }
 
-    public function getVoetballers()
+    public function getUfc()
     {
-        $sql = 'SELECT Id,Naam, Club, Leeftijd,Nationaliteit,Salaris FROM Voetballers;';
+        $sql = 'SELECT Id, Name, Ranking, Length, Weight, Age, WinsByKnockout FROM Voetballers;';
 
         $this->db->query($sql);
 
